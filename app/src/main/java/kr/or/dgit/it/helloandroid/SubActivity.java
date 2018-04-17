@@ -14,7 +14,7 @@ public class SubActivity extends AppCompatActivity {
         setTitle(R.string.subActivity);
 
        Button btnClose = new Button(getApplicationContext());
-       btnClose.setText("종료");
+       btnClose.setText("눌러봐 로컬에서 수정");
        btnClose.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
